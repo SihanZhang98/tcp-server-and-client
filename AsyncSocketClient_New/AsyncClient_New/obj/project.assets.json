@@ -1,0 +1,134 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Tulpep.NotificationWindow/1.1.38": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Tulpep.NotificationWindow.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Tulpep.NotificationWindow.dll": {}
+        }
+      },
+      "NewyorkAsyncSocket/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/NewyorkAsyncSocket.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewyorkAsyncSocket.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tulpep.NotificationWindow/1.1.38": {
+      "sha512": "cotu1DDvSiSqvkGIY0SOh1QN5NgXTiWJEspZCx34My+p0q9ONvtPYUZELyN+Fpo0U/KyAG5B0wEiiFdaMCesag==",
+      "type": "package",
+      "path": "tulpep.notificationwindow/1.1.38",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Tulpep.NotificationWindow.dll",
+        "tulpep.notificationwindow.1.1.38.nupkg.sha512",
+        "tulpep.notificationwindow.nuspec"
+      ]
+    },
+    "NewyorkAsyncSocket/1.0.0": {
+      "type": "project",
+      "path": "../../AsyncSocketServer/AsyncServer/NewyorkAsyncSocket.csproj",
+      "msbuildProject": "../../AsyncSocketServer/AsyncServer/NewyorkAsyncSocket.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "NewyorkAsyncSocket >= 1.0.0",
+      "Tulpep.NotificationWindow >= 1.1.38"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\deepe\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\CSharp\\AsyncClient_New\\AsyncClient_New\\AsyncClient_New.csproj",
+      "projectName": "AsyncClient_New",
+      "projectPath": "D:\\CSharp\\AsyncClient_New\\AsyncClient_New\\AsyncClient_New.csproj",
+      "packagesPath": "C:\\Users\\deepe\\.nuget\\packages\\",
+      "outputPath": "D:\\CSharp\\AsyncClient_New\\AsyncClient_New\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\deepe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "D:\\CSharp\\AsyncSocketServer\\AsyncServer\\NewyorkAsyncSocket.csproj": {
+              "projectPath": "D:\\CSharp\\AsyncSocketServer\\AsyncServer\\NewyorkAsyncSocket.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Tulpep.NotificationWindow": {
+            "target": "Package",
+            "version": "[1.1.38, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Tulpep.NotificationWindow 1.1.38' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Tulpep.NotificationWindow",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
