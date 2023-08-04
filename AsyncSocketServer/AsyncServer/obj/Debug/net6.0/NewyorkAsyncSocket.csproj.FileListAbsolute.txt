@@ -1,0 +1,12 @@
+D:\CSharp\AsyncSocketServer\AsyncServer\bin\Debug\net6.0\NewyorkAsyncSocket.deps.json
+D:\CSharp\AsyncSocketServer\AsyncServer\bin\Debug\net6.0\NewyorkAsyncSocket.dll
+D:\CSharp\AsyncSocketServer\AsyncServer\bin\Debug\net6.0\NewyorkAsyncSocket.pdb
+D:\CSharp\AsyncSocketServer\AsyncServer\obj\Debug\net6.0\NewyorkAsyncSocket.csproj.AssemblyReference.cache
+D:\CSharp\AsyncSocketServer\AsyncServer\obj\Debug\net6.0\NewyorkAsyncSocket.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp\AsyncSocketServer\AsyncServer\obj\Debug\net6.0\NewyorkAsyncSocket.AssemblyInfoInputs.cache
+D:\CSharp\AsyncSocketServer\AsyncServer\obj\Debug\net6.0\NewyorkAsyncSocket.AssemblyInfo.cs
+D:\CSharp\AsyncSocketServer\AsyncServer\obj\Debug\net6.0\NewyorkAsyncSocket.csproj.CoreCompileInputs.cache
+D:\CSharp\AsyncSocketServer\AsyncServer\obj\Debug\net6.0\NewyorkAsyncSocket.dll
+D:\CSharp\AsyncSocketServer\AsyncServer\obj\Debug\net6.0\refint\NewyorkAsyncSocket.dll
+D:\CSharp\AsyncSocketServer\AsyncServer\obj\Debug\net6.0\NewyorkAsyncSocket.pdb
+D:\CSharp\AsyncSocketServer\AsyncServer\obj\Debug\net6.0\ref\NewyorkAsyncSocket.dll

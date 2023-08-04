@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AsyncSocketServer/1.0.0": {
+        "dependencies": {
+          "NewyorkAsyncSocket": "1.0.0"
+        },
+        "runtime": {
+          "AsyncSocketServer.dll": {}
+        }
+      },
+      "NewyorkAsyncSocket/1.0.0": {
+        "runtime": {
+          "NewyorkAsyncSocket.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AsyncSocketServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NewyorkAsyncSocket/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
